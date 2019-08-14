@@ -1,0 +1,1 @@
+/Users/pratamawijaya/Documents/Workspaces/Research/BaseAppMultimodule/buildSrc/build/classes/kotlin/main/Config.class:/Users/pratamawijaya/Documents/Workspaces/Research/BaseAppMultimodule/buildSrc/build/classes/kotlin/main/Deps.class:/Users/pratamawijaya/Documents/Workspaces/Research/BaseAppMultimodule/buildSrc/build/classes/kotlin/main/Versions.class
