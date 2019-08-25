@@ -3,4 +3,4 @@ include ':features:onboarding'
 include ':features:login'
 include ':features:register'
 
-include ':libraries:actions'
+include ':libraries:navigations'

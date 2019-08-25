@@ -20,7 +20,7 @@ object Versions {
     val androidx_testing = "1.1.1"
 
     val gradleandroid = "3.4.2"
-    val kotlin = "1.3.31"
+    val kotlin = "1.3.50"
     val gradleversions = "0.21.0"
 }
 
@@ -41,5 +41,6 @@ object Deps {
 
     val tools_gradleandroid = "com.android.tools.build:gradle:${Versions.gradleandroid}"
     val tools_kotlin = "org.jetbrains.kotlin:kotlin-gradle-plugin:${Versions.kotlin}"
+    val tools_kotlin_stdlib = "org.jetbrains.kotlin:kotlin-stdlib-jdk7:${Versions.kotlin}"
     val tools_gradleversions = "com.github.ben-manes:gradle-versions-plugin:${Versions.gradleversions}"
 }

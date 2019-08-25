@@ -19,10 +19,11 @@ android {
 
 dependencies {
 
+    implementation Deps.tools_kotlin_stdlib
     implementation project(':features:onboarding')
     implementation project(':features:login')
     implementation project(':features:register')
-    implementation project(':libraries:actions')
+    implementation project(':libraries:navigations')
 
     testImplementation Deps.testlib_junit
 

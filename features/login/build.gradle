@@ -3,8 +3,9 @@ apply plugin: 'kotlin-android-extensions'
 apply plugin: 'kotlin-android'
 
 dependencies {
-    implementation project(':libraries:actions')
+    implementation project(':libraries:navigations')
 
+    implementation Deps.tools_kotlin_stdlib
     implementation Deps.androidx_constraintlayout
     implementation Deps.androidx_appcompat
 }

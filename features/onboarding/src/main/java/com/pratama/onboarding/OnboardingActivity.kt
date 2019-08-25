@@ -11,11 +11,11 @@ class OnboardingActivity : AppCompatActivity() {
         setContentView(R.layout.activity_onboarding)
 
         btnRegister.setOnClickListener {
-            startActivity(Actions.openRegister(this))
+            startActivity(Navigations.openRegister(this))
         }
 
         btnLogin.setOnClickListener {
-            startActivity(Actions.openLogin(this))
+            startActivity(Navigations.openLogin(this))
         }
     }
 }

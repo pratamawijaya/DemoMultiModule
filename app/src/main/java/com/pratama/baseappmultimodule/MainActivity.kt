@@ -9,6 +9,6 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        startActivity(Actions.openOnboardingIntent(this))
+        startActivity(Navigations.openOnboardingIntent(this))
     }
 }
